@@ -1,0 +1,14 @@
+.header {
+    background-image: url('./images/BannerImage.png');
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.header-title {
+    text-align: center;
+    width: 50%;
+    color: aliceblue;
+}
