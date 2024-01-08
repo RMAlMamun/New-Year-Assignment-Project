@@ -93,7 +93,7 @@ body {
     padding: 80px 0px;
 }
 
-.bannar-heading {
+.banner-heading {
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
@@ -101,7 +101,7 @@ body {
     margin-top: -50px;
 }
 
-.bannar-paragraph {
+.banner-paragraph {
     color: rgba(255, 255, 255, 0.80);
     text-align: justify;
     font-size: 18px;
@@ -121,7 +121,7 @@ body {
     text-decoration: none;
 }
 
-.bannar-image {
+.banner-image {
     display: flex;
     width: 319.83px;
     height: 464.662px;
@@ -148,8 +148,6 @@ body {
     font-weight: 800;
     text-transform: capitalize;
     line-height: 56px;
-    /* 175% */
-
 }
 
 .text-scolor {
@@ -171,18 +169,16 @@ body {
 
 
 /* Coming Soon & Promo Related Information */
-.comming-soon-container {
+.coming-soon-container {
     display: flex;
     width: 100%;
-    max width: 1320px;
+    max-width: 1320px;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
-    bac
-    
+    flex-shrink: 0
 }
 
-.comming-soon-title {
+.coming-soon-title {
     max-width: 393px;
     height: 255px;
     flex-shrink: 0;
