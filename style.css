@@ -178,6 +178,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    bac
+    
 }
 
 .comming-soon-title {
@@ -190,6 +192,7 @@ body {
     width: 463px;
     height: 463px;
     flex-shrink: 0;
+    border-radius: 16px;
 }
 
 .promo-text2 {
