@@ -1,14 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
-    background-image: url('./images/BannerImage.png');
+    /* background-image: url('./images/BannerImage.png'); */
+    /* background-color: rgba(0, 0, 0, 0.514); */
+    /* background-blend-mode: multiply; */
+    background-image: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('./images/BannerImage.png');
+    border-radius: 16px;
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    margin: auto;
+    padding: auto;
 }
 
-.header-title {
+.container {
+    width: 40%;
+    /* max-width: 632px; */
+    padding: 177px 366px;
     text-align: center;
-    width: 50%;
-    color: aliceblue;
+    color: #FFF;
+
+}
+
+
+
+.header-text {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.header-main-title {
+    font-size: 65px;
+    font-weight: 900;
+    margin-top: -25px;
 }
