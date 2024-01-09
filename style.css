@@ -471,7 +471,7 @@ body {
     display: flex;
     color: #FFF;
     justify-content: space-between;
-    width: auto%;
+    width: auto;
     max-width: 70%;
     text-align: center;
     margin: 50px auto;
