@@ -183,7 +183,6 @@ body {
     padding-right: 100px;
     height: 255px;
     flex-shrink: 0;
-
 }
 
 .promo-design {
@@ -259,7 +258,6 @@ body {
 .holyday-sell-container {
     margin: 100px auto;
     width: 1320px;
-
 }
 
 .holyday-title {
@@ -325,7 +323,6 @@ body {
     width: 1320px;
     height: 229px;
     flex-shrink: 0;
-
 }
 
 /* Body Gift Container Related Information */
@@ -367,6 +364,36 @@ body {
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 20px;
+
+    position: relative;
+    cursor: pointer;
+    background-size: cover;
+    transition: all 1.1s;
+    
+}
+
+.portfolio-img:hover{
+    transform: scale(1.1);
+}
+
+.portfolio-img2:hover{
+    transform: scale(1.1);
+}
+
+.portfolio-img3:hover{
+    transform: scale(1.1);
+}
+
+.portfolio-img4:hover{
+    transform: scale(1.1);
+}
+
+.portfolio-img5:hover{
+    transform: scale(1.1);
+}
+
+.portfolio-img6:hover{
+    transform: scale(1.1);
 }
 
 .portfolio-image2 {
@@ -414,7 +441,6 @@ body {
     padding-left: 10px;
     border-radius: 50px 0 0 50px;
     border: none;
-
 }
 
 .subscribe-button {
@@ -429,11 +455,9 @@ body {
     text-transform: capitalize;
     margin-left: -10px;
     border: none;
-
 }
 
 /* Footer Related Information */
-
 .footer-section {
     width: 1600px;
     height: 609px;
@@ -526,5 +550,4 @@ body {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
-
 }
