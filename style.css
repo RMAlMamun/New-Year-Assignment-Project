@@ -171,11 +171,11 @@ body {
 /* Coming Soon & Promo Related Information */
 .coming-soon-container {
     display: flex;
-    width: 100%;
-    max-width: 1320px;
-    justify-content: center;
     align-items: center;
-    flex-shrink: 0
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: auto;
 }
 
 .coming-soon-title {
@@ -188,11 +188,184 @@ body {
     width: 463px;
     height: 463px;
     flex-shrink: 0;
-    border-radius: 16px;
 }
 
 .promo-text2 {
     width: 276px;
     height: 170px;
     flex-shrink: 0;
+}
+
+.promo-text {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: -25px;
+}
+
+.promo-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: -5px;
+}
+
+.promo-dis {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.promo-img {
+    align-items: center;
+    margin: 25px;
+}
+
+.promo-circle-image {
+    border-style: solid;
+    border-color: #F00;
+    border-radius: 50%;
+    padding: 15px;
+    border-width: 10px;
+}
+
+.promo-details {
+    margin-left: 20px;
+}
+
+.text-2024 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.new-year-promo {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+/* Body Holyday Container Related Information */
+.holyday-sell-container {
+    margin: 100px auto;
+    width: 1320px;
+
+}
+
+.holyday-title {
+    text-align: center;
+}
+
+.holyday-text {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: -50px;
+}
+
+.holyday-sell-title {
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: -3px;
+}
+
+.holyday-sell-dis {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.holyday-img-area {
+    display: flex;
+    width: 1320px;
+}
+
+#box-img {
+    width: 796.463px;
+    flex-shrink: 0;
+    margin-bottom: -400px;
+}
+
+#box-image {
+    width: 797px;
+    height: 661px;
+    margin-left: -100px;
+}
+
+.holyday-discount-area {
+    background-image: url('images/Rectangle1.png');
+    background-repeat: no-repeat;
+    width: 429px;
+    height: 433px;
+    margin-left: 55px;
+}
+
+#holyday-discount-img {
+    margin-left: -150px;
+    margin-top: 100px;
+}
+
+#red-background {
+    background-color: #F00;
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+
+}
+
+/* Body Gift Container Related Information */
+.gift-container {
+    text-align: left;
+    margin: auto;
+    width: 1320px;
+    height: 1163px;
+    flex-shrink: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gift-text {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gift-text-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.gift-text-dis{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 450px;
+}
+
+.portfolio-image1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.portfolio-image2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
 }
